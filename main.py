@@ -1,4 +1,6 @@
-
+from functions import read
+from functions import find_gender
+from functions import oneKeyword
     
 def main():
         
