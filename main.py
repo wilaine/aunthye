@@ -40,6 +40,6 @@ def main():
                         exit()                        
                 else:
                         print("Not Valid option")
-                repeat = input("Continue? (y/n) ")
+        repeat = input("Continue? (y/n) ")
         if repeat == 'n':
                 chk = False
