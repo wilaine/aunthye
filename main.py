@@ -12,7 +12,7 @@ def main():
         chk = True
         while chk:
                 print("**********************************")
-                print("1. List                                        *")
+                print("1. List                          *")
                 print("2. Search by gender              *")
                 print("3. Search by one keyword         *")
                 print("4. Search by two keywords        *")
