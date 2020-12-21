@@ -14,7 +14,8 @@ def find_gender():
         count = 1
         reader = csv.reader(file)
         ans = input("Enter the gender to search (male or female) : ")
-        print('{:<3} {:<33}  {:<15}  {:<25} {:<15} {:<15} {:<15} {:<15}'.format("No","Name","myKIDNumber","Guardian Name","Relationship","City","Phone Number","Car Plate"))
+        if(ans=="male" or ans=="female"):
+            print('{:<3} {:<33}  {:<15}  {:<25} {:<15} {:<15} {:<15} {:<15}'.format("No","Name","myKIDNumber","Guardian Name","Relationship","City","Phone Number","Car Plate"))
         for row in reader:
             gender = int(row[1].split('-')[2])
             if(ans=="male"):
