@@ -43,6 +43,3 @@ else:
 repeat = input("Continue? (y/n) ")
 if repeat == 'n':
         chk = False
-
-
-        dniawondiawondiwao;dniaowd
