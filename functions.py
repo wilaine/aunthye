@@ -31,4 +31,14 @@ def find_gender():
                 print("Enter male or female!")
                 
 def oneKeyword():
+
+
+def twoKeyword():
+
+def update():
+
+def append():
+
+def delete():
     
+def exit():
