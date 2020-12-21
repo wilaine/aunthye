@@ -41,5 +41,5 @@ def main():
                 else:
                         print("Not Valid option")
                 repeat = input("Continue? (y/n) ")
-                if repeat == 'n':
-                        chk = False
+        if repeat == 'n':
+                chk = False
