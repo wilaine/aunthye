@@ -1,6 +1,6 @@
 def read():
     import csv
-    with open('python.csv', 'r') as file:
+    with open('children_record.csv', 'r') as file:
         count = 1
         reader = csv.reader(file)
         print('{:<3} {:<33}  {:<15}  {:<25} {:<15} {:<15} {:<15} {:<15}'.format("No","Name","myKIDNumber","Guardian Name","Relationship","City","Phone Number","Car Plate"))
@@ -10,7 +10,7 @@ def read():
 
 def find_gender():
     import csv
-    with open('python.csv', 'r') as file:
+    with open('children_record.csv', 'r') as file:
         count = 1
         reader = csv.reader(file)
         ans = input("Enter the gender to search (male or female) : ")
@@ -31,7 +31,7 @@ def find_gender():
             else:
                 print("Enter male or female!")
                 
-def oneKeyword():
+"""def oneKeyword():
 
 def twoKeyword():
 
@@ -41,4 +41,4 @@ def append():
 
 def delete():
     
-def exit():
+def exit():"""
